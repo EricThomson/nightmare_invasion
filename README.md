@@ -1,5 +1,5 @@
 # Nightmare Invasion 
-A Python 3 clone of a Space Invaders clone adapted from the book *Python Crash Course* by Eric Matthes. 
+A clone of a Space Invaders clone adapted from the book *Python Crash Course* by Eric Matthes. It uses Python 3 and characters from My Little Pony. Technical consultants: a bunch of first graders.
 
 ## Instructions
 Run `nightmare_invasion.py` to start playing. Note it uses the `pygame` package.
@@ -9,10 +9,10 @@ Run `nightmare_invasion.py` to start playing. Note it uses the `pygame` package.
 - Press p to pause.
 
 ### To do
-1.  Save top ten high scores and let user enter name (use something like the `appdirs` package to find the correct location to store user data, and then store it using the json package or something.
-2.  Speed is very different on different systems: the pygame event loop is tied to the system processor: would be nice to lock the main game loop at a fixed period on different systems. This is possible using something like pygame.Clock.tick(X) to run at X fps. I played with this but it was meh and seemed to only slow things down.
+1.  Save top ten high scores and let user enter name (use something like the `appdirs` package to find the correct location to store user data, and then store it using something simple like the the json package).
+2.  Speed is very different on different systems: the pygame event loop is currently tied to the system processor: would be nice to loop at a fixed rate. This is possible using something like pygame.Clock.tick(X) to run at X fps. I played with this but it was meh and seemed to only slow things down.
 3.  Some of the sounds are meh. 
-4.  Pause doesn't pause the sounds (pygame.mixer.pause()/.unpause() should do the trick).
+4.  Pause doesn't pause the sounds -- pygame.mixer.pause()/.unpause() should work.
 5.  Check to see if it runs in Python 2.
 
 ### Photo credits:
