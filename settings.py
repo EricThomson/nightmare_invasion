@@ -28,15 +28,15 @@ class Settings():
         #Ship settings#
         self.ship_filenames = ['celestiaYellow.bmp', 'spikeGray.bmp', 'daringDoGreen.bmp',
                               'djpon3Black.bmp', 'applejackFuscia.bmp', 'rarityBlue.bmp', 
-                              'pinkiePieGreen.bmp', 'fluttershyBlue.bmp', 'rainbowDashWhite.bmp', 
-                              'twilightRed.bmp']     
+                              'pinkiePieGreen.bmp', 'fluttershyBlue2.bmp', 'rainbowDashWhite.bmp', 
+                              'twilightRed.bmp']     #
         self.num_spare_ships_initial = 2  #number of spare ships
         
         #Alien settings
-        self.alien_filenames =  ['nightmareMoonYellow.bmp', 'changelingGray.bmp', 'ahuizotlGreen.bmp',
-                                'dazzlingsBlack.bmp', 'batFuscia.bmp', 'diamondDogsBlue.bmp', 
-                                'discordGreen.bmp', 'garbleBlue.bmp', 'chrysalisWhite.bmp', 
-                                'starlightRed.bmp']
+        self.alien_filenames =  ['nightmareMoonYellow.bmp', 'changelingGray2.bmp', 'ahuizotlGreen.bmp',
+                                'dazzlingsBlack.bmp', 'batFuscia.bmp', 'diamondDogBlue2.bmp', 
+                                'discordGreen.bmp', 'garbleBlue.bmp', 'chrysalisWhite2.bmp', 
+                                'starlightRed.bmp']  #nightmareMoonYellow.bmp
         
         self.alien_ystart = 50  #starting y position (0 is top)
         self.alien_drop_distance = 25
