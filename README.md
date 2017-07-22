@@ -2,7 +2,7 @@
 A clone of a Space Invaders clone. Adapted from the book *Python Crash Course* by Eric Matthes. It uses Python 3 and characters from My Little Pony. Technical consultants: a bunch of first graders.
 
 ## Instructions
-Run `nightmare_invasion.py` to start playing. Note it uses the `pygame` package.
+Run `nightmare_invasion.py` to start playing. Dependency: `pygame` 
 - Start a game by pressing 'Return' or clicking where indicated.
 - Use L/R arrows to move, spacebar to shoot.
 - Press q to quit.
@@ -16,7 +16,7 @@ Run `nightmare_invasion.py` to start playing. Note it uses the `pygame` package.
 5.  Check to see if it runs in Python 2.
 6.  Add exception handling for images and go to default image when image file not found. 
 
-### Photos either under creative common license, or used with permission
+### Photo credits  
 Ahuizotl: http://mlp-fim.deviantart.com/art/Vector-22-Ahuizotl-495777522  
 Applejack: http://gamemasterluna.deviantart.com/art/Applejack-438217627 
 Bat: http://gt4tube.deviantart.com/art/MLP-FiM-Bat-fly-Vector-423008372  
@@ -39,7 +39,7 @@ Spike: http://mlp-gameloft.wikia.com/wiki/File:Spike.png
 Starlight Glimmer: http://dashiesparkle.deviantart.com/art/Vector-123-Starlight-Glimmer-2-520248197   
  
 ### Levels 
-List of the colors and other level-specific settings. Note pony heights are 110 pixels.
+List of background colors and other level-specific settings. Note pony heights are 110 pixels.
 
 1. princess celestia vs nightmare moon (200 pixels high) 
 background: yellow (200, 200, 0)
