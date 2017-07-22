@@ -1,5 +1,5 @@
 # Nightmare Invasion 
-A clone of a Space Invaders clone. Adapted from the book *Python Crash Course* by Eric Matthes. It uses Python 3 and characters from My Little Pony. Technical consultants: a bunch of first graders. Uses `pygame`.
+A clone of a Space Invaders clone. Adapted from the book *Python Crash Course* by Eric Matthes. It uses Python 3 and characters from My Little Pony. Technical consultants: a bunch of first graders. Uses `pygame`. 
 
 ## Instructions
 To play, run `nightmare_invasion.py`. 
@@ -18,7 +18,7 @@ To play, run `nightmare_invasion.py`.
 
 ### Photo credits  
 Ahuizotl: http://mlp-fim.deviantart.com/art/Vector-22-Ahuizotl-495777522  
-Applejack: http://gamemasterluna.deviantart.com/art/Applejack-438217627 
+Applejack: http://gamemasterluna.deviantart.com/art/Applejack-438217627  
 Bat: http://gt4tube.deviantart.com/art/MLP-FiM-Bat-fly-Vector-423008372  
 Changeling: http://theshadowstone.deviantart.com/art/Changeling-2-395935772  
 Chrysalis: http://cadence-chrysalis.deviantart.com/art/Queen-Chrysalis-298838368  
@@ -90,3 +90,4 @@ wav duration charge 5 sec
 bg: soviet red (255, 27 , 0)
 bullets soviet yellow (255, 255, 0)
 wav duration celebration (loops 1x) 7 sec x2 = 14 sec.  
+
