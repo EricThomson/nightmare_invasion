@@ -1,9 +1,9 @@
 # Nightmare Invasion 
-A clone of a Space Invaders clone. Adapted from the book *Python Crash Course* by Eric Matthes. It uses Python 3 and characters from My Little Pony. Technical consultants: a bunch of first graders.
+A clone of a Space Invaders clone. Adapted from the book *Python Crash Course* by Eric Matthes. It uses Python 3 and characters from My Little Pony. Technical consultants: a bunch of first graders. Uses `pygame`.
 
 ## Instructions
-Run `nightmare_invasion.py` to start playing. Dependency: `pygame` 
-- Start a game by pressing 'Return' or clicking where indicated.
+To play, run `nightmare_invasion.py`. 
+- Pressing 'Return' or click mouse where indicated to start game.
 - Use L/R arrows to move, spacebar to shoot.
 - Press q to quit.
 - Press p to pause.
