@@ -8,14 +8,6 @@ To play, run `nightmare_invasion.py`.
 - Press q to quit.
 - Press p to pause.
 
-### To do
-1.  Save top ten high scores and let user enter name (use something like the `appdirs` package to find the correct location to store user data, and then store it using something simple like the the json package).
-2.  Speed is very different on different systems: the pygame event loop is currently tied to the system processor: would be nice to loop at a fixed rate. This is possible using something like pygame.Clock.tick(X) to run at X fps. I played with this but it was meh and seemed to only slow things down.
-3.  Some of the sounds are meh. 
-4.  Pause doesn't pause the sounds -- pygame.mixer.pause()/.unpause() should work.
-5.  Check to see if it runs in Python 2.
-6.  Add exception handling for images and go to default image when image file not found. 
-
 ### Photo credits  
 Ahuizotl: http://mlp-fim.deviantart.com/art/Vector-22-Ahuizotl-495777522  
 Applejack: http://gamemasterluna.deviantart.com/art/Applejack-438217627  
@@ -90,4 +82,12 @@ wav duration charge 5 sec
 bg: soviet red (255, 27 , 0)
 bullets soviet yellow (255, 255, 0)
 wav duration celebration (loops 1x) 7 sec x2 = 14 sec.  
+
+### For the motivated
+1.  Save top ten high scores and let user enter name (use something like the `appdirs` package to find the correct location to store user data, and then store it using something simple like the the json package).
+2.  Speed is very different on different systems: the pygame event loop is currently tied to the system processor: would be nice to loop at a fixed rate. This is possible using something like pygame.Clock.tick(X) to run at X fps. I played with this but it was meh and seemed to only slow things down.
+3.  Some of the sounds are meh. 
+4.  Pause doesn't pause the sounds -- pygame.mixer.pause()/.unpause() should work.
+5.  Check to see if it runs in Python 2.
+6.  Add exception handling for images and go to default image when image file not found. 
 
