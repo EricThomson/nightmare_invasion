@@ -3,7 +3,7 @@ A clone of a Space Invaders clone. Adapted from the book *Python Crash Course* b
 
 ## Instructions
 To play, run `nightmare_invasion.py`. 
-- Pressing 'Return' or click mouse where indicated to start game.
+- Press 'Return' or click mouse where indicated on screen to start game.
 - Use L/R arrows to move, spacebar to shoot.
 - Press q to quit.
 - Press p to pause.
